@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import './App.css';
-import img from './img/squirrel.png';
+import Mycars from './component/Mycars';
 
 class App extends Component {
   render(){
     return (
-      <div className="text-green">
-        <h1>Joli</h1>
-        <img src={img}></img>
+      <div>
+        <Mycars />
+        <h1>Mee too</h1>
       </div>
     );
   }
