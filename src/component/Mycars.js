@@ -5,9 +5,10 @@ class Mycars extends Component {
     render(){
         return(
             <div>
-                <h1>Hello World</h1>
-                <p>Bla Blo Blu</p>
-                <Car />
+                <h1>{this.props.titre}</h1>
+                <Car color="red">Ford</Car>
+                <Car color="black">Peugeot</Car>
+                <Car color="green">BMX</Car>
             </div>
         )
     }

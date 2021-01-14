@@ -1,10 +1,13 @@
 import React from 'react';
 
-let Car = () => {
+let Car = ({children, color}) => {
+
+    // console.log(props);
+
     return(
-        <div>
-            <p>Marque: </p>
-            <p>Couleur: </p>
+        <div className="text-center">
+            <p>Marque: {children}</p>
+            <p>Couleur: {color}</p>
         </div>
     );
 };
